@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — Techlestial</title>
+    <meta name="description" content="About Techlestial — open-source technology studio, projects, and contributing." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="canonical" href="https://techlestial.vercel.app/docs" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="stars" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Tech<strong>lestial</strong></span>
+        </a>
+        <nav class="nav">
+          <a href="/#projects">Projects</a>
+          <a href="/docs" aria-current="page">About</a>
+          <a href="https://github.com/techlestial" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="docs-page">
+      <div class="container docs-content">
+        <h1>About Techlestial</h1>
+        <p class="docs-lead">
+          <strong>Techlestial</strong> is an open-source technology studio — a home for
+          developer tools published under the <code>@techlestial</code> npm scope.
+        </p>
+
+        <section>
+          <h2>What we build</h2>
+          <p>
+            Focused utilities for everyday development: git workflows (Gitlestial),
+            structured logging (Loglestial), and APIs (Translatial). Each project gets
+            a landing page, documentation, tests, and MIT license.
+          </p>
+        </section>
+
+        <section>
+          <h2>Rebirth standard</h2>
+          <p>Every studio project ships at minimum:</p>
+          <ul>
+            <li>Static landing + <code>/docs</code></li>
+            <li>Vercel deploy with GitHub auto-deploy</li>
+            <li>TypeScript where applicable + Vitest</li>
+            <li>npm publish under <code>@techlestial/*</code></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Projects</h2>
+          <ul>
+            <li><a href="https://gitlestial.vercel.app">Gitlestial</a> — git CLI</li>
+            <li><a href="https://loglestial.vercel.app">Loglestial</a> — Node logging</li>
+            <li><a href="https://github.com/techlestial/translatial">Translatial</a> — GraphQL translation API</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Contributing</h2>
+          <p>
+            Fork any repo under <a href="https://github.com/techlestial">github.com/techlestial</a>,
+            open a PR, and follow conventional commits. Gitlestial can generate your changelog.
+          </p>
+        </section>
+
+        <section>
+          <h2>Author</h2>
+          <p>
+            Founded and maintained by
+            <a href="https://github.com/m3yevn">Kevin Moe Myint Myat (m3yevn)</a>
+            as part of the portfolio rebirth initiative.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p><a href="/">← Back to studio home</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

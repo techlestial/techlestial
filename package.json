@@ -1,0 +1,13 @@
+{
+  "name": "@techlestial/studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Techlestial — open-source technology studio landing",
+  "homepage": "https://techlestial.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techlestial/techlestial.git"
+  },
+  "author": "m3yevn",
+  "license": "MIT"
+}

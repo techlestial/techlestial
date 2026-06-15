@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Techlestial — Open-source technology studio</title>
+    <meta
+      name="description"
+      content="Techlestial is an open-source technology studio building developer tools — Gitlestial, Loglestial, and more. MIT licensed npm packages by m3yevn."
+    />
+    <meta name="theme-color" content="#08060f" />
+    <link rel="canonical" href="https://techlestial.vercel.app/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Techlestial — Open-source technology studio" />
+    <meta property="og:description" content="Developer tools forged in the open. Git, logging, and beyond." />
+    <meta property="og:url" content="https://techlestial.vercel.app/" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@m3yevn" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="stars" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Tech<strong>lestial</strong></span>
+        </a>
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="/docs">About</a>
+          <a href="https://github.com/techlestial" rel="noopener">GitHub</a>
+          <a href="https://www.npmjs.com/org/techlestial" rel="noopener">npm</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <span class="studio-badge">✦ Open-source technology studio</span>
+          <h1>Tools forged in the <span class="gradient">open</span></h1>
+          <p class="hero-lead">
+            We build small, sharp developer utilities — git workflows, logging, APIs —
+            as MIT-licensed npm packages. No lock-in. No bloat. Ship with us.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">Explore projects</a>
+            <a href="https://github.com/techlestial" class="btn btn-ghost" rel="noopener">GitHub org →</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-value">3</div>
+              <div class="stat-label">Open repos</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">MIT</div>
+              <div class="stat-label">Every package</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">@techlestial</div>
+              <div class="stat-label">on npm</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <h2 class="section-title">Studio projects</h2>
+          <p class="section-sub">
+            Each tool ships with docs, tests, and a landing page — the Techlestial rebirth standard.
+          </p>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="project-icon">😈</span>
+              <span class="project-tag">CLI · v2.0</span>
+              <h3><a href="https://gitlestial.vercel.app">Gitlestial</a></h3>
+              <p>
+                Git productivity CLI — changelog from conventional commits, commit-msg guides,
+                and full git passthrough.
+              </p>
+              <div class="install-snippet">npm i -g @techlestial/gitlestial</div>
+              <div class="project-links">
+                <a href="https://gitlestial.vercel.app">Site</a>
+                <a href="https://gitlestial.vercel.app/docs">Docs</a>
+                <a href="https://github.com/techlestial/gitlestial" rel="noopener">GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="project-icon">📝</span>
+              <span class="project-tag">Library · v2.0</span>
+              <h3><a href="https://loglestial.vercel.app">Loglestial</a></h3>
+              <p>
+                Colorful Node.js logging with optional file output. Pairs with Gitlestial
+                across your dev stack.
+              </p>
+              <div class="install-snippet">npm i @techlestial/loglestial</div>
+              <div class="project-links">
+                <a href="https://loglestial.vercel.app">Site</a>
+                <a href="https://loglestial.vercel.app/docs">Docs</a>
+                <a href="https://github.com/techlestial/loglestial" rel="noopener">GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="project-icon">☘</span>
+              <span class="project-tag">API · GraphQL</span>
+              <h3><a href="https://github.com/techlestial/translatial">Translatial</a></h3>
+              <p>
+                Translation-as-a-service GraphQL API — multi-language translate endpoints.
+                Classic studio experiment, rebirth planned.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/techlestial/translatial" rel="noopener">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="philosophy">
+            <blockquote>
+              “Small tools, well-crafted. Open source by default — because the best
+              developer experience is one you can read, fork, and improve.”
+            </blockquote>
+            <cite>— Techlestial studio ethos</cite>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <nav class="footer-links">
+          <a href="/docs">About the studio</a>
+          <a href="https://github.com/techlestial" rel="noopener">GitHub</a>
+          <a href="https://www.npmjs.com/org/techlestial" rel="noopener">npm org</a>
+          <a href="https://github.com/m3yevn" rel="noopener">m3yevn</a>
+        </nav>
+        <p>MIT licensed · Built by <a href="https://github.com/m3yevn">Kevin Moe Myint Myat</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
