@@ -5,6 +5,7 @@
 | Org landing (`/`) | ✅ |
 | About page (`/docs`) | ✅ |
 | Project cards (gitlestial, loglestial, translatial) | ✅ |
+| SEO (`robots.txt`, `sitemap.xml`) | ✅ |
 | Vercel deploy | ✅ [techlestial.vercel.app](https://techlestial.vercel.app) |
 | GitHub org repo `techlestial/techlestial` | ✅ |
 | Link from child project footers | ✅ |
