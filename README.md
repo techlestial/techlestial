@@ -1,8 +1,15 @@
-# Techlestial
+# Techlestial Labs
 
-**Open-source technology studio** — developer tools under `@techlestial` on npm.
+**Open-source AI consultancy studio** — MCP servers, RAG pipelines, agent tooling, and `@techlestial` npm packages.
 
 **Live:** [techlestial.vercel.app](https://techlestial.vercel.app)
+
+## Studio offerings
+
+| Tier | Description |
+|------|-------------|
+| **OSS Partner** | Free community access to all `@techlestial` packages |
+| **Studio Consult** | AI architecture, MCP/RAG integration, rollout — [kevinmyat.com](https://kevinmyat.com) |
 
 ## Projects
 
@@ -13,10 +20,12 @@
 | [translatial](https://github.com/techlestial/translatial) | GraphQL translation API | [translatial.vercel.app](https://translatial.vercel.app) |
 | [@techlestial/uilerial](https://www.npmjs.com/package/@techlestial/uilerial) | React UI components | [uilerial.vercel.app](https://uilerial.vercel.app) |
 | [uilerial-studio](https://github.com/techlestial/uilerial-studio) | React patterns + Konva lab | [uilerial-studio.vercel.app](https://uilerial-studio.vercel.app) |
+| [apprag](https://github.com/techlestial/apprag) | App scaffolding CLI | [apprag.vercel.app](https://apprag.vercel.app) |
+| [vizat](https://github.com/m3yevn/vizat) | Canvas 2D engine | [vizat.vercel.app](https://vizat.vercel.app) |
 
 ## Deploy
 
-Static site in `public/` — `vercel --prod`
+Static site in `public/` — push to `master` for Vercel auto-deploy, or `vercel --prod`.
 
 ## License
 

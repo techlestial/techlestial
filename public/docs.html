@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About — Techlestial</title>
-    <meta name="description" content="About Techlestial — open-source technology studio, projects, and contributing." />
+    <title>About — Techlestial Labs</title>
+    <meta
+      name="description"
+      content="About Techlestial Labs — open-source AI consultancy studio, OIT framework, projects, and contributing."
+    />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href="https://techlestial.vercel.app/docs" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,42 +19,56 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <div class="grid-bg" aria-hidden="true"></div>
     <div class="stars" aria-hidden="true"></div>
 
     <header class="site-header">
-      <div class="container header-inner">
+      <div class="container header-pill">
         <a href="/" class="logo">
-          <span class="logo-icon">✦</span>
-          <span class="logo-text">Tech<strong>lestial</strong></span>
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="logo-text">TECHLESTIAL <strong>LABS</strong></span>
         </a>
-        <nav class="nav">
-          <a href="/#projects">Projects</a>
-          <a href="/docs" aria-current="page">About</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/#open-source">Open Source</a>
+          <a href="/#process">Process</a>
+          <a href="/#consult">Consult</a>
           <a href="https://github.com/techlestial" rel="noopener">GitHub</a>
         </nav>
+        <a href="/#consult" class="nav-cta">Let's talk</a>
       </div>
     </header>
 
     <main class="docs-page">
       <div class="container docs-content">
-        <h1>About Techlestial</h1>
+        <h1>About Techlestial Labs</h1>
         <p class="docs-lead">
-          <strong>Techlestial</strong> is an open-source technology studio — a home for
-          developer tools published under the <code>@techlestial</code> npm scope.
+          <strong>Techlestial Labs</strong> is an open-source AI consultancy studio — we publish
+          tools under <code>@techlestial</code>, ship agent infrastructure, and consult on
+          industrializing AI for production teams.
         </p>
 
         <section>
-          <h2>What we build</h2>
+          <h2>What we do</h2>
           <p>
-            Focused utilities for everyday development: git workflows (Gitlestial),
-            structured logging (Loglestial), and APIs (Translatial). Each project gets
-            a landing page, documentation, tests, and MIT license.
+            We build MCP servers, RAG pipelines, developer CLIs, React component libraries, and
+            GraphQL APIs — all MIT licensed with landing pages, docs, and tests. Studio consultancy
+            covers architecture, integration, rollout, and long-term tuning.
           </p>
         </section>
 
         <section>
+          <h2>OIT framework</h2>
+          <p>Every engagement follows three phases:</p>
+          <ul>
+            <li><strong>Open</strong> — publish and fork open-source foundations first</li>
+            <li><strong>Integrate</strong> — wire agents, MCP, and APIs into your stack</li>
+            <li><strong>Tune</strong> — optimize and consult as needs evolve</li>
+          </ul>
+        </section>
+
+        <section>
           <h2>Rebirth standard</h2>
-          <p>Every studio project ships at minimum:</p>
+          <p>Every forge project ships at minimum:</p>
           <ul>
             <li>Static landing + <code>/docs</code></li>
             <li>Vercel deploy with GitHub auto-deploy</li>
@@ -65,8 +82,21 @@
           <ul>
             <li><a href="https://gitlestial.vercel.app">Gitlestial</a> — git CLI</li>
             <li><a href="https://loglestial.vercel.app">Loglestial</a> — Node logging</li>
-            <li><a href="https://translatial.vercel.app">Translatial</a> — GraphQL translation API (live)</li>
+            <li><a href="https://translatial.vercel.app">Translatial</a> — GraphQL translation API</li>
+            <li><a href="https://uilerial.vercel.app">Uilerial</a> — React UI components</li>
+            <li><a href="https://uilerial-studio.vercel.app">Uilerial Studio</a> — pattern lab</li>
+            <li><a href="https://apprag.vercel.app">Apprag</a> — app scaffolding CLI</li>
+            <li><a href="https://vizat.vercel.app">Vizat</a> — Canvas 2D engine</li>
           </ul>
+        </section>
+
+        <section>
+          <h2>Consultancy</h2>
+          <p>
+            For architecture and integration work, reach out via
+            <a href="https://kevinmyat.com">kevinmyat.com</a>. Open-source packages remain free
+            and forkable regardless.
+          </p>
         </section>
 
         <section>
@@ -82,7 +112,8 @@
           <p>
             Founded and maintained by
             <a href="https://github.com/m3yevn">Kevin Moe Myint Myat (m3yevn)</a>
-            as part of the portfolio rebirth initiative.
+            as part of the
+            <a href="https://kevinmoemyintmyat.vercel.app/ecosystem">Engineering Universe</a>.
           </p>
         </section>
       </div>
